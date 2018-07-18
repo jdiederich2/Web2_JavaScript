@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Greensock TweenLite Testing - Image Gallery</title>
+	<meta charset="utf-8">
+    
+    <link href="css/styles.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet'>
+</head>
+
+<body onload="gallery()">
+    
+    <h2>Greensock TweenLite testing page</h2>
+    
+    <div class="contentWrapper">
+    
+        <section class="thumbnails">
+        
+            <img src="images/thumbs/1.jpg" id="1" alt="thumbnail1"><br>
+            <img src="images/thumbs/2.jpg" id="2" alt="thumbnail2"><br>
+            <img src="images/thumbs/3.jpg" id="3" alt="thumbnail3"><br>
+            <img src="images/thumbs/4.jpg" id="4" alt="thumbnail4"><br>
+            <img src="images/thumbs/5.jpg" id="5" alt="thumbnail5"><br>
+            <img src="images/thumbs/6.jpg" id="6" alt="thumbnail6">
+        
+        </section>
+        
+        <section class="content">
+        
+            <img src="images/stPrivat.jpg" id="photo1" alt="The Cemetery at St Privat - by Alphonse De Neuville" srcset="images/4_300px.jpg 414w, images/4_800px.jpg 800w, images/4_1000px.jpg 1000w" sizes="(max-width: 460px) 90vw, (min-width: 768px) 90vw, (min-width: 1000px) 82vw">
+            
+            <div class="picCaption">
+            
+                <p id="stPrivat" class="picTitle">The Cemetery at St Privat - 18 August, 1870
+                    <span class="artistInfo">Alphonse De Neuville</span>    </p>
+                        
+                <p id="picCaption1" class="picTitle">The Galgenhugel at Froeschwiller - 6 August, 1870
+                    <span class="artistInfo">Carl Rochling</span></p> 
+                        
+                <p id="picCaption2" class="picTitle">Billeting with the Enemy - August, 1870
+                    <span class="artistInfo">Anton Werner</span></p> 
+                        
+                <p id="picCaption3" class="picTitle">Morsbrunn - 6 August, 1870
+                    <span class="artistInfo">Edouard Detaille</span></p> 
+                        
+                <p id="picCaption4" class="picTitle">The Cemetery at St Privat - 18 August, 1870
+                    <span class="artistInfo">Alphonse De Neuville</span></p> 
+                        
+                <p id="picCaption5" class="picTitle">French Cuirassiers at Eberbach - 6 August, 1870
+                    <span class="artistInfo">Unknown</span></p> 
+                        
+                <p id="picCaption6" class="picTitle">The Spy - August, 1870
+                    <span class="artistInfo">Alphonse De Neuville</span></p>    
+            
+            </div>
+        
+        </section>
+    
+    </div>
+           
+    <!-- Next time, use specific GSAPJS class library files... -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+    <!--<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>-->
+    <script src="js/gallery.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+body {
+    background: #222;
+    color: #59ea39;
+    font-family: Calibri, Verdana, sans-serif;
+    font-size: 1.125em;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.wrapper h2:first-child {
+    text-align: center;
+}
+
+.wrapper h2:first-child::first-letter {
+    font-size: 200%;
+}
+
+a {
+    color: #80ea69;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #59ea3a;
+    text-decoration: underline;
+}
